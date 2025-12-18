@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="ar" dir="ltr">
 <head>
-    <link rel="icon" type="image/png" href="logo.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Integrated Exam System</title>
@@ -242,7 +241,7 @@
 
             <div class="exam-card">
                 <div class="exam-header">
-                    <div class="exam-title">CLS323_471_final_dec2025</div>
+                    <div class="exam-title">Final Exam-1st 2025</div>
                     <div class="exam-date-group">
                         <div class="exam-date">14 Dec 2025</div>
                         <div class="exam-date">12:55 PM</div>
@@ -251,10 +250,10 @@
 
                 <div class="exam-details-grid">
                     <span class="label">Course</span>
-                    <span class="value">GENERAL PATHOPHYSIOLOGY</span>
+                    <span class="value">Professional Communication</span>
                     
                     <span class="label">Duration</span>
-                    <span class="value">02:05:00</span>
+                    <span class="value">02:00:00</span>
                     
                     <span class="label">Proctored</span>
                     <span class="value">No</span>
@@ -273,21 +272,21 @@
         <div id="exam-start-page">
             <div class="page-header">
                 <span class="back-arrow" onclick="goBackToDashboard()">&#8592;</span>
-                <span style="font-weight: bold;">CLS323_471_final_dec2025</span>
+                <span style="font-weight: bold;">Final Exam-1st 2025</span>
             </div>
 
             <div class="detail-list">
                 <div class="detail-item">
                     <span class="dt-label">Course</span>
-                    <span class="dt-value">GENERAL PATHOPHYSIOLOGY</span>
+                    <span class="dt-value">Professional Communication</span>
                 </div>
                 <div class="detail-item">
                     <span class="dt-label">Total Duration</span>
-                    <span class="dt-value">02:05:00</span>
+                    <span class="dt-value">02:00:00</span>
                 </div>
                 <div class="detail-item">
                     <span class="dt-label">Remaining Duration</span>
-                    <span class="dt-value" id="timer-display" style="color: var(--accent-blue);">02:05:00</span>
+                    <span class="dt-value" id="timer-display" style="color: var(--accent-blue);">02:00:00</span>
                 </div>
                 <div class="detail-item">
                     <span class="dt-label">Language</span>
@@ -340,7 +339,7 @@
                 </div>
                 <div class="timer" aria-live="polite" aria-atomic="true">
                   <span class="ico" aria-hidden="true"></span>
-                  <span class="txt" id="timerText">125 (mins)</span>
+                  <span class="txt" id="timerText">120 (mins)</span>
                 </div>
               </div>
         
@@ -423,7 +422,7 @@
             clearInterval(dashboardTimerInterval);
         }
 
-        // تحديث المؤقت ليصبح 02:05:00
+        // تحديث المؤقت ليصبح 02:00:00
         function startDashboardTimer() {
             let hours = 2, minutes = 5, seconds = 0;
             const display = document.getElementById('timer-display');
@@ -519,8 +518,8 @@
         {q:"Metformin should be discontinued before and after radiographic contrast because of risk for:", a:["Lactic acidosis","Hypertension","Hypoglycemia","Dehydration"]}
         ];
 
-        // تم تحديث الوقت الكلي إلى 125 دقيقة (ساعتين و 5 دقائق)
-        const state = { itemsAnswered:0, totalQuestions:bank.length, timeUsed:0, timeTotal:125 };
+        // تم تحديث الوقت الكلي إلى 120 دقيقة (ساعتين و 5 دقائق)
+        const state = { itemsAnswered:0, totalQuestions:bank.length, timeUsed:0, timeTotal:120 };
         const $ = s=>document.querySelector(s);
         const setBar=(el,p,aria)=>{el.style.width=p+"%"; if(aria) aria.setAttribute("aria-valuenow",Math.round(p));};
         const pct=n=>`${Math.max(0,Math.min(100,Math.round(n)))}%`;
@@ -624,6 +623,4 @@
         }
     </script>
 </body>
-
 </html>
-
