@@ -241,16 +241,16 @@
 
             <div class="exam-card">
                 <div class="exam-header">
-                    <div class="exam-title">NURS 221 FINAL 2025</div>
+                    <div class="exam-title">NURS 226 FINAL EXAM 1ST SEM 1447</div>
                     <div class="exam-date-group">
-                        <div class="exam-date">25 Dec 2025</div>
+                        <div class="exam-date">29 Dec 2025</div>
                         <div class="exam-date">01:00 PM</div>
                     </div>
                 </div>
 
                 <div class="exam-details-grid">
                     <span class="label">Course</span>
-                    <span class="value">Health Assessment</span>
+                    <span class="value">Pharmacology for Nursing</span>
                     
                     <span class="label">Duration</span>
                     <span class="value">02:00:00</span>
@@ -272,13 +272,13 @@
         <div id="exam-start-page">
             <div class="page-header">
                 <span class="back-arrow" onclick="goBackToDashboard()">&#8592;</span>
-                <span style="font-weight: bold;">NURS 221 FINAL 2025</span>
+                <span style="font-weight: bold;">NURS 226 FINAL EXAM 1ST SEM 1447</span>
             </div>
 
             <div class="detail-list">
                 <div class="detail-item">
                     <span class="dt-label">Course</span>
-                    <span class="dt-value">Health Assessment</span>
+                    <span class="dt-value">Pharmacology for Nursing</span>
                 </div>
                 <div class="detail-item">
                     <span class="dt-label">Total Duration</span>
@@ -475,205 +475,165 @@
         /* ==== 40 سؤال (30 أصلي + 10 مكرر) ==== */
         const bank = [
         /* الـ 50 سؤال الأصلية */
-        {
-  q: "Which muscle is the primary muscle of respiration?",
-  a: ["Diaphragm", "Intercostals", "Scalenes", "Abdominals"]
+       {
+  q: "Asthma is best described as a disease with which two main components?",
+  a: ["Inflammation and bronchospasm", "Infection and fibrosis", "Edema and emphysema", "Obstruction and collapse"]
 },
 {
-  q: "Normal adult respiratory rate is:",
-  a: ["12–20 breaths/min", "8–10 breaths/min", "20–30 breaths/min", "30–40 breaths/min"]
+  q: "Status asthmaticus refers to:",
+  a: ["A prolonged asthma attack", "Exercise-induced asthma", "Mild intermittent asthma", "Nocturnal asthma"]
 },
 {
-  q: "The sternal angle is used to locate which rib?",
-  a: ["Second rib", "First rib", "Fourth rib", "Sixth rib"]
+  q: "Which of the following is a common trigger of asthma?",
+  a: ["Tobacco smoke", "Calcium supplements", "Cold water", "Vitamin C"]
 },
 {
-  q: "The lower border of the lung crosses the midclavicular line at the:",
-  a: ["6th rib", "4th rib", "8th rib", "10th rib"]
+  q: "Exercise-induced asthma is more likely to occur in:",
+  a: ["Dry, cold climates", "Warm, humid climates", "Indoor environments", "At rest only"]
 },
 {
-  q: "Which line drops vertically from the midpoint of the clavicle?",
-  a: ["Midclavicular line", "Midsternal line", "Midaxillary line", "Scapular line"]
+  q: "One goal of asthma drug therapy is to:",
+  a: ["Terminate acute bronchospasm", "Cure asthma permanently", "Eliminate allergens", "Increase mucus production"]
 },
 {
-  q: "Accessory muscles of respiration are commonly used during:",
-  a: ["Exercise", "Sleep", "Rest", "Meditation"]
+  q: "Quick-relief medications for asthma include:",
+  a: ["Beta2-adrenergic agonists", "Antibiotics", "Antihistamines only", "Mucolytics"]
 },
 {
-  q: "Dyspnea is best described as:",
-  a: ["Uncomfortable awareness of breathing", "Painful breathing", "Slow breathing", "Noisy breathing"]
+  q: "Long-term control of asthma commonly includes:",
+  a: ["Inhaled corticosteroids", "Short-acting beta agonists only", "Opioids", "Antibiotics"]
 },
 {
-  q: "Wheezes are caused by:",
-  a: ["Partial airway obstruction", "Fluid in alveoli", "Pleural inflammation", "Collapsed lung"]
+  q: "Which drug class is most effective for relieving acute bronchospasm?",
+  a: ["Beta2-adrenergic agonists", "Leukotriene modifiers", "Mast cell stabilizers", "Immunomodulators"]
 },
 {
-  q: "A cough lasting more than 8 weeks is classified as:",
-  a: ["Chronic", "Acute", "Subacute", "Recurrent"]
+  q: "Beta2-agonists cause bronchodilation by:",
+  a: ["Relaxing bronchial smooth muscle", "Reducing mucus thickness", "Suppressing immune cells", "Blocking histamine"]
 },
 {
-  q: "Clubbing of the nails may indicate:",
-  a: ["Chronic hypoxia", "Acute infection", "Dehydration", "Anemia"]
+  q: "Compared with nonselective beta agonists, beta2 agonists have:",
+  a: ["Fewer cardiac side effects", "More cardiac toxicity", "No respiratory effect", "Longer onset of action"]
 },
 {
-  q: "Cyanosis is a sign of:",
-  a: ["Hypoxia", "Hypercapnia", "Anemia", "Dehydration"]
+  q: "Albuterol is classified as a:",
+  a: ["Short-acting beta2 agonist", "Long-acting beta2 agonist", "Corticosteroid", "Anticholinergic"]
 },
 {
-  q: "The normal AP diameter ratio of the chest is approximately:",
-  a: ["0.7–0.75", "0.3–0.5", "1.0", "0.9–1.0"]
+  q: "The preferred drug to terminate an acute asthma attack is:",
+  a: ["Inhaled albuterol", "Oral albuterol", "Inhaled corticosteroid", "Leukotriene modifier"]
 },
 {
-  q: "Barrel chest is commonly associated with:",
-  a: ["COPD", "Asthma", "Pneumonia", "Tuberculosis"]
+  q: "Oral albuterol is not recommended for acute attacks because it:",
+  a: ["Has a slower onset of action", "Is unsafe", "Causes hypoglycemia", "Is ineffective"]
 },
 {
-  q: "Pectus excavatum is characterized by:",
-  a: ["Depressed sternum", "Protruding sternum", "Barrel chest", "Kyphosis"]
+  q: "Inhaled albuterol can be used before exercise to:",
+  a: ["Prevent exercise-induced bronchospasm", "Increase endurance", "Reduce heart rate", "Improve muscle strength"]
 },
 {
-  q: "Flail chest results from:",
-  a: ["Multiple rib fractures", "Pleural effusion", "Pneumonia", "Asthma"]
+  q: "Proper inhaler technique is important because it:",
+  a: ["Ensures effective drug delivery", "Reduces drug cost", "Prevents infection", "Eliminates side effects"]
 },
 {
-  q: "Unequal chest expansion may indicate:",
-  a: ["Pleural effusion", "Normal aging", "Exercise", "Anxiety"]
+  q: "The pregnancy category of albuterol is:",
+  a: ["Category C", "Category A", "Category B", "Category D"]
 },
 {
-  q: "Tactile fremitus refers to:",
-  a: ["Palpable chest vibrations", "Audible breath sounds", "Chest tenderness", "Percussion tone"]
+  q: "The onset of action of inhaled albuterol is approximately:",
+  a: ["5–15 minutes", "30–60 minutes", "1–2 hours", "6–8 hours"]
 },
 {
-  q: "Decreased tactile fremitus is seen in:",
-  a: ["Pleural effusion", "Pneumonia", "Consolidation", "Atelectasis with patency"]
+  q: "Common adverse effects of albuterol include:",
+  a: ["Tachycardia and tremor", "Hypotension and bradycardia", "Sedation", "Constipation"]
 },
 {
-  q: "Percussion of healthy lung tissue produces:",
-  a: ["Resonant sound", "Dull sound", "Flat sound", "Hyperresonant sound"]
+  q: "Which adverse effect is considered uncommon but serious with albuterol?",
+  a: ["Paradoxical bronchospasm", "Dry mouth", "Headache", "Insomnia"]
 },
 {
-  q: "Auscultation is used to assess:",
-  a: ["Breath sounds", "Chest expansion", "Skin temperature", "Tenderness"]
+  q: "Albuterol should be used cautiously in patients with a history of:",
+  a: ["Cardiac disease", "Peptic ulcer", "Renal stones", "Hypothyroidism"]
 },
 {
-  q: "Crackles are described as:",
-  a: ["Discontinuous nonmusical sounds", "Continuous musical sounds", "Low-pitched snoring sounds", "Silent sounds"]
+  q: "Concurrent use of beta blockers with albuterol may:",
+  a: ["Inhibit bronchodilation", "Enhance bronchodilation", "Prevent side effects", "Increase absorption"]
 },
 {
-  q: "Fine crackles are usually:",
-  a: ["High-pitched and brief", "Low-pitched and long", "Continuous", "Musical"]
+  q: "Patients should avoid MAOIs within how many days of starting albuterol?",
+  a: ["14 days", "3 days", "7 days", "30 days"]
 },
 {
-  q: "Rhonchi often improve after:",
-  a: ["Coughing", "Deep breathing", "Exercise", "Position change"]
+  q: "High doses of albuterol may cause which electrolyte imbalance?",
+  a: ["Hypokalemia", "Hyperkalemia", "Hyponatremia", "Hypercalcemia"]
 },
 {
-  q: "Stridor is best heard over the:",
-  a: ["Neck", "Posterior lung fields", "Lower lobes", "Axilla"]
+  q: "Products containing caffeine may increase which albuterol side effects?",
+  a: ["Nervousness and palpitations", "Sedation", "Hypotension", "Respiratory depression"]
 },
 {
-  q: "Hyperpnea occurs in response to:",
-  a: ["Increased metabolic demand", "Airway obstruction", "Pleural effusion", "Anxiety only"]
+  q: "Overdose of albuterol primarily causes excessive activation of the:",
+  a: ["Sympathetic nervous system", "Parasympathetic nervous system", "Central nervous system only", "Renal system"]
 },
 {
-  q: "Biot breathing is associated with:",
-  a: ["Brain injury", "Heart failure", "Asthma", "COPD"]
+  q: "Which condition may result from albuterol overdose?",
+  a: ["Dysrhythmias", "Respiratory acidosis", "Hypoglycemia", "Bradycardia"]
 },
 {
-  q: "The inferior angle of the scapula lies at the level of the:",
-  a: ["7th rib", "5th rib", "9th rib", "10th rib"]
+  q: "In severe albuterol overdose, treatment may include:",
+  a: ["Cardioselective beta blockers", "Opioids", "Diuretics", "Calcium channel blockers"]
 },
 {
-  q: "The vertebral line overlies the:",
-  a: ["Spinous processes", "Clavicles", "Scapulae", "Ribs"]
+  q: "Before administering beta2 agonists, the nurse should assess:",
+  a: ["Respiratory rate and lung sounds", "Bowel sounds", "Vision acuity", "Reflexes"]
 },
 {
-  q: "In sitting position, thoracic movements become:",
-  a: ["More prominent", "Absent", "Painful", "Irregular"]
+  q: "Albuterol should not be administered to patients with a history of:",
+  a: ["Dysrhythmia or MI", "Diabetes mellitus", "Asthma", "Allergic rhinitis"]
 },
 {
-  q: "Inspiratory contraction of accessory muscles at rest indicates:",
-  a: ["Severe respiratory distress", "Normal breathing", "Relaxation", "Sleep apnea"]
+  q: "Use of beta2 agonists in children younger than 6 years is:",
+  a: ["Limited", "Contraindicated in all cases", "Preferred", "Without restrictions"]
 },
 {
-  q: "Chest pain related to respiration may be caused by:",
-  a: ["Pneumonia", "Angina", "GERD", "Myocardial infarction"]
+  q: "Albuterol is not recommended for:",
+  a: ["Breastfeeding women", "Older adults", "Adolescents", "Athletes"]
 },
 {
-  q: "A normal breathing sound near the open mouth is described as:",
-  a: ["Faint whish", "Loud wheeze", "Crackle", "Stridor"]
+  q: "Which assessment finding indicates effective albuterol therapy?",
+  a: ["Improved breath sounds", "Increased wheezing", "Decreased oxygen saturation", "Increased dyspnea"]
 },
 {
-  q: "Upper lung fields are best assessed:",
-  a: ["Above the clavicles", "Below the scapulae", "At lung bases", "At midaxillary line"]
+  q: "Leukotriene modifiers are primarily used to:",
+  a: ["Reduce asthma attack frequency", "Treat acute bronchospasm", "Relieve pain", "Suppress cough only"]
 },
 {
-  q: "The lung bases represent the:",
-  a: ["Lowermost lung portions", "Upper lobes", "Middle lobes", "Apices"]
+  q: "Mast cell stabilizers help asthma by:",
+  a: ["Preventing release of inflammatory mediators", "Dilating bronchi immediately", "Suppressing respiration", "Increasing mucus secretion"]
 },
 {
-  q: "Second-hand smoke exposure should be assessed during:",
-  a: ["Health history", "Percussion", "Auscultation", "Inspection"]
+  q: "Systemic corticosteroids in asthma are mainly used to:",
+  a: ["Control inflammation", "Relieve anxiety", "Increase oxygen demand", "Thin secretions"]
 },
 {
-  q: "Anxiety related dyspnea often has:",
-  a: ["Sudden onset", "Gradual onset", "Productive cough", "Fever"]
+  q: "Which route of albuterol administration provides the fastest relief?",
+  a: ["Inhalation", "Oral tablet", "Extended-release tablet", "Oral solution"]
 },
 {
-  q: "Chest inspection includes observing:",
-  a: ["Shape and movement", "Breath sounds", "Vibrations", "Percussion notes"]
+  q: "Asthma attacks are often triggered by exposure to:",
+  a: ["Allergens", "Vitamins", "Electrolytes", "Hormones"]
 },
 {
-  q: "Kyphoscoliosis affects respiration by:",
-  a: ["Distorting lung structure", "Increasing lung volume", "Improving airflow", "Reducing oxygen demand"]
+  q: "Which finding suggests worsening asthma control?",
+  a: ["Increased use of rescue inhaler", "Decreased symptoms", "Stable peak flow", "Improved exercise tolerance"]
 },
 {
-  q: "The midaxillary line drops from the:",
-  a: ["Apex of the axilla", "Midpoint of clavicle", "Sternum", "Scapula"]
+  q: "The primary role of beta2 agonists in asthma management is to:",
+  a: ["Relieve bronchoconstriction", "Reduce infection", "Cure inflammation", "Suppress immunity"]
 },
 {
-  q: "A productive cough may produce sputum that is:",
-  a: ["Mucoid or purulent", "Clear only", "Bloody only", "Odorless always"]
-},
-{
-  q: "Respiratory rate in infants can be up to:",
-  a: ["44 breaths/min", "20 breaths/min", "12 breaths/min", "30 breaths/min"]
-},
-{
-  q: "Chest retractions during inspiration indicate:",
-  a: ["Increased work of breathing", "Normal breathing", "Relaxation", "Aging"]
-},
-{
-  q: "Listening to spoken words through the chest wall assesses:",
-  a: ["Voice transmission", "Airway patency", "Chest expansion", "Diaphragm movement"]
-},
-{
-  q: "The diaphragm relaxes during:",
-  a: ["Expiration", "Inspiration", "Hyperpnea", "Coughing"]
-},
-{
-  q: "Posterior lung fields are best examined with the patient:",
-  a: ["Sitting and leaning forward", "Supine", "Prone", "Standing"]
-},
-{
-  q: "A lateral tracheal shift may indicate:",
-  a: ["Pneumothorax", "Normal anatomy", "Asthma", "Bronchitis"]
-},
-{
-  q: "Normal thorax shape in adults is:",
-  a: ["Wider than deep", "Deeper than wide", "Perfectly round", "Asymmetrical"]
-},
-{
-  q: "Normal adult respiratory rate is:",
-  a: ["12–20 breaths/min", "8–10 breaths/min", "20–30 breaths/min", "30–40 breaths/min"]
-},
-{
-  q: "The sternal angle is used to locate which rib?",
-  a: ["Second rib", "First rib", "Fourth rib", "Sixth rib"]
-},
-{
-  q: "The lower border of the lung crosses the midclavicular line at the:",
-  a: ["6th rib", "4th rib", "8th rib", "10th rib"]
+  q: "Use of beta2 agonists in children younger than 6 years is:",
+  a: ["Limited", "Contraindicated in all cases", "Preferred", "Without restrictions"]
 }
 
 ]
